@@ -1,0 +1,39 @@
+/* SELECTOR POR CLASE 
+
+.error {
+    background-color: red;
+    color: white;
+} */
+
+/*SELECTOR POR ID 
+#P ESPECIAL {
+    border: 3px solid gray;
+    border-radius: 5 px;
+} */
+
+/*SELECTOR DE TIPO */
+/*H1 {
+    BACKGROUND-COLOR: RGB (204, 255, 0);
+}
+
+NAV {
+    BACKGROUND-COLOR: RGB (255,60,0);
+} */
+
+/* Selector original 
+* {
+    margin: 0;
+}*/
+
+
+p {
+    border: 10px dotted rgb(red, green, blue);
+    background-color: orange;
+    color: white;
+}
+
+h2 {
+    background-color: aquamarine;
+    color: crimson;
+    font-size: 50 px;
+}

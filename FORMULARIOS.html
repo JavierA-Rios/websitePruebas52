@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIOS</h1>
+        <NAV>
+            <UL>
+                <LI><a href="HOME.HTML">REGRESAR</a></LI>
+            </UL>
+        </NAV>
+    </header>
+    <FORM ACTION="">
+        <FIEldset>
+
+            <div>
+            <LEGEnd>DATOS PERSONALES</LEGEnd>
+            <LABel for="nombre">Nombre: </LABel>
+            <INPut type="text" name="" id=""></INPut>
+            </div>
+
+            <div>
+            <LABel for="edad">Edad: </LABel>
+            <INPut type="number" name="edad" id="edad"></INPut>
+            </div>
+
+            <div>
+                <label for="colorf">Color favorito</label>
+                <INPut type="color" name="colorf" id="colorf">
+            </div>
+
+            <div>
+                <label for="sn">Semana nacimiento</label>
+                <input type="week" name="pass" id="sn">
+            </div>
+
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+
+            <div>
+                <label for="casado">¿Casado?</label>
+                <input type="checkbox" name="casadp" id="casado">
+            </div>
+
+            <div>
+                <label for="foto"> Fotografia </label>
+                <input type="file" name="foto" id="foto">
+            </div>
+
+            <div>
+                <label for="vol">volumen</label>
+                <input type="range" name="vol" id="vol">
+            </div>
+
+            <div>
+                <label for="com">COmentarios</label>
+                <textarea name="com" id="com" cols="30" rows="10"></textarea>
+            </div>
+
+            <!--LISTA DESPEGABLE SEL MULTIPLE-->
+            <div>
+                <label for="pais">Pais</label>
+                <select name="pais" id="pais2" multiple>
+                    <option value="52">Mexico</option>
+                    <option value="21">Japon</option>
+                    <option value="43">India</option>
+                </select>
+            </div>
+
+            <!--LISTA DESPEGABLE CON GRUPOS-->
+            <div>
+                <label for="pais3">Pais</label>
+                <select name="pais3" id="pais3" multiple>
+                    <optgroup label="America">
+                        <option value="52">Mexico</option>
+                        <option value="21">Honduras</option>
+                    </optgroup>
+
+                    <optgroup label="Asia">
+                        <option value="43">India</option>
+                    </optgroup>
+
+                </select>
+            </div>
+
+        </FIEldset>
+        <FIEldset>
+            <LEGend>DATPS LABORALES</LEGend>
+        </FIEldset>
+    </FORM>
+</body>
+</html>
